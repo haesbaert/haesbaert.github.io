@@ -1,4 +1,81 @@
-baseURL = 'https://haesbaert.github.io/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+baseURL = "https://example.com"
+title = "Haesbaert"
+languageCode = "en"
+enableInlineShortcodes = true
+theme = 'soho'
+summarylength = 10
+enableEmoji = true
+
+[params]
+author = "Christiano Haesbaert"
+description = "lala"
+
+## Set one of:
+# gravatar = "soho@example.com"
+profilePicture = "images/profile.png"
+
+copyright = "Christiano Haesbaert"
+license = "ISC"
+licenseURL = "https://opensource.org/licenses/ISC"
+
+## Set custom theme color.
+#themeColor = "#be7b17"
+#themeColor = "#97591c"
+#themeColor = "#777c54"
+#themeColor = "#b27326"
+#themeColor = "#df6c11"
+
+#themeColor = "#6d8c79"
+themeColor = "#ce7e00"
+
+## Set custom CSS and/or JS to override site defaults.
+customCss = ["css/blog.css"]
+customJs = ["js/blog.js"]
+
+  ## Set as many as you want.
+  [[params.socialIcons]]
+  icon = "fa-linkedin"
+  title = "Linkedin"
+  url = "https://www.linkedin.com/in/christiano-f-haesbaert-37997540"
+
+  [[params.socialIcons]]
+  icon = "fa-github"
+  title = "GitHub"
+  url = "https://github.com/haesbaert"
+
+  [[params.socialIcons]]
+  icon = "fa-twitter"
+  title = "Twitter"
+  url = "https://twitter.com/haesbaert_cf"
+
+[menu]
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 100
+  identifier = "posts"
+  url = "/posts/"
+
+  [[menu.main]]
+  name = "About"
+  identifier = "about"
+  weight = 300
+  url = "/about/"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[markup]
+
+  [markup.highlight]
+  codeFences = true
+  guessSyntax = false
+  hl_Lines = ""
+  lineNoStart = 1
+  lineNos = false
+  lineNumbersInTable = true
+  noClasses = true # if false, you need to provide you own custom CSS
+  style = "monokai"
+  tabWidth = 4

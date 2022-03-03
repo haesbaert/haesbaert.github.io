@@ -6,4 +6,4 @@
 	url = https://github.com/AmazingRise/hugo-theme-diary.git
 [submodule "themes/soho"]
 	path = themes/soho
-	url = https://github.com/alexandrevicenzi/soho.git
+	url = https://github.com/haesbaert/soho.git

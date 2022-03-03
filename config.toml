@@ -1,5 +1,5 @@
-baseURL = "https://example.com"
-title = "Haesbaert"
+baseURL = "https://haesbaert.github.io"
+title = "haesbaert"
 languageCode = "en"
 enableInlineShortcodes = true
 theme = 'soho'
@@ -8,7 +8,7 @@ enableEmoji = true
 
 [params]
 author = "Christiano Haesbaert"
-description = "lala"
+description = "programmer person"
 
 ## Set one of:
 # gravatar = "soho@example.com"
@@ -51,13 +51,13 @@ customJs = ["js/blog.js"]
 [menu]
 
   [[menu.main]]
-  name = "Posts"
+  name = "posts"
   weight = 100
   identifier = "posts"
   url = "/posts/"
 
   [[menu.main]]
-  name = "About"
+  name = "about"
   identifier = "about"
   weight = 300
   url = "/about/"

@@ -59,3 +59,29 @@ I gave a couple of interviews about [MirageOS](https://mirage.io) and
 [OpenMDNS](https://github.com/haesbaert/mdnsd) is a full stack
 implementation of MDNS/DNS-SD and it was my bachelor thesis, it aimed
 to be a replacement for Bonjour and Avahi.
+
+## Keyboards
+
+I have an unhealthy relationship with keyboards and I've built
+multiple of them during the years. The most interesting ones are:
+
+### [Amigo Punk](https://www.reddit.com/r/MechanicalKeyboards/comments/lz77tt/amigo_punk_a_handwired_alps_with_oled_and_encoder/)
+
+This is a handwired ALPS with OLED and rotary encoder, I've designed
+the plates myself and got them cut at
+[Laserboost](https://www.laserboost.com), there is no PCB so I had to solder
+[everything](https://imgur.com/a/9Z37fWz), it uses a simple [teensy
+2++](https://www.pjrc.com/store/teensypp.html) and it's a simple
+sandwich design
+
+![amigopunk](https://i.imgur.com/7uVsX1v.jpeg)
+
+
+### [3DP Bakeneko60](https://github.com/kkatano/bakeneko-60)
+
+I've produced some 3D printed Bakeneko60s, which is a popular
+gasket-oring mounted 60%. Printed them at home, designed the plate
+myself and got the PCB/DB made at [JLCPB](https://jlcpcb.com), sourced
+some parts from China and voilat.
+
+![Bakeneko60](/images/bakeneko60.jpg)

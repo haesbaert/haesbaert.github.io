@@ -70,9 +70,9 @@ multiple of them during the years. The most interesting ones are:
 This is a handwired ALPS with OLED and rotary encoder, I've designed
 the plates myself and got them cut at
 [Laserboost](https://www.laserboost.com), there is no PCB so I had to solder
-[everything](https://imgur.com/a/9Z37fWz), it uses a simple [teensy
+[everything](https://imgur.com/a/9Z37fWz), it uses a [teensy
 2++](https://www.pjrc.com/store/teensypp.html) and it's a simple
-sandwich design
+sandwich design.
 
 ![amigopunk](https://i.imgur.com/7uVsX1v.jpeg)
 

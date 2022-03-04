@@ -7,7 +7,7 @@ author = "Christiano Haesbaert"
 +++
 
 I'm a BSD-kernel/ocaml/parallel-programmer type of person (yes, we
-exist!). I was involved with multiple opensource projects, most
+exist!). I've been involved with multiple opensource projects, most
 importantly [OpenBSD](https://www.openbsd.org) and
 [MirageOS](https://mirage.io).
 
@@ -42,7 +42,8 @@ now incorporated into mainstream MirageOS:
 
 * [charrua-dhcp](https://github.com/mirage/charrua) - DHCP as a
   library, also used by [Docker
-  Desktop](https://https://www.docker.com/products/docker-desktop)
+  Desktop](https://https://www.docker.com/products/docker-desktop),
+  more on this [article](https://mirage.io/blog/introducing-charrua-dhcp)
 * [awa-ssh](https://github.com/mirage/awa-ssh) - SSH as a library
 * [rawlink](https://github.com/haesbaert/rawlink) - an interface for BPF/AF_PACKET
 

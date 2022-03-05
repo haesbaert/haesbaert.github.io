@@ -24,9 +24,9 @@ interesting things like lockless
 [pf(4)](https://man.openbsd.org/pf.4),
 [pfsync(4)](https://man.openbsd.org/pfsync.4) as well as rewrite
 allocators, packet queues, drivers and more to scale with multiple
-cores. I also rewrote the whole interrupt handler layer of
+cores. I also rewrote the interrupt handler layer of
 [Bitrig](https://www.bitrig.org) and implemented kernel preemption (it
-worked, I swear !)
+worked, I swear !).
 
 ## MirageOS
 
